@@ -1,0 +1,4 @@
+1. Cómo poner header top fijo y bg blanco sólo en tamaños pequeños
+2. Cuando el menú está abierto que la x ocupe el lugar del símbolo del menú
+3. Fixed y flex cómo trabajar las dos cosas.
+Por ejemplo, en la barra de navegación y el menú cómo se solucionaría

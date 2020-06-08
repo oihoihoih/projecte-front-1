@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Autobiografia de Barcelona</title>
+
+        <!-- Tipografias a concretar -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.typekit.net/hpv8jkw.css">
+        <link rel="stylesheet" href="css/elegant-icons.css"/>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+
+<!-- HEADER -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<header class="header-container">
+    <div class= "header">
+        <div class="site-logo">
+            <img src="imgs/bcn-logo.png" alt="site-logo"></img>
+        </div>
+        <div class="site-menu-icon">
+            <button type="button" id="show-menu" onClick="getMenu()">
+                <i class="icon_menu"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<!-- información que irá dentro del botón icon_menu
+<nav class="nav-items" id="menu-inner">
+    <div class="">
+        <button id="menu-close" class="menu-switch-off" title="menu-close"><i class="icon_close" onClick="closeMenu()"></i>
+        </button>
+    </div>
+    <ul class="menu-list">
+        <li><a href="#">Actividades</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Créditos exposición</a></li>
+    </ul>
+</nav>
+ -->
+
+<aside class="left-navigation">
+    <div id="expo-areas">
+        <ul class="areas">
+            <li class="areas-main">
+                <a>1</a></li>
+            <li class="areas-sec">
+                <a>1.1</a></li>
+            <li class="areas-sec">
+                <a>1.2</a></li>
+            <li class="areas-main">
+                <a>2</a></li>
+            <li class="areas-sec">
+                <a>2.1</a></li>
+            <li class="areas-sec">
+                <a>2.2</a></li>
+            <li class="areas-main">
+                <a>3</a></li>
+            <li class="areas-main">
+                <a>4</a></li>
+            <li class="areas-main">
+                <a>5</a></li>
+        </ul>
+    </div>
+</aside>
+
+<section id="govern">
+    <article id="gov-intro">
+        <div class="intro-content">
+            <div class="intro-text">
+                <div class="text-area">
+                    <h1>El govern de la ciutat</h1>
+
+                    <p>L’any 1249, el rei Jaume I el Conqueridor concedia als barcelonins els primers privilegis d’autogovern municipal. S’establien llavors les bases d’un sistema institucional de governança representativa local, el del Consell de Cent, que perduraria durant prop de mig mil·leni. A partir de 1714, la monarquia borbònica instaurava una nova forma de govern de la ciutat que ha continuat fins a l’actualitat: l’Ajuntament de regidors. Des de fa més de set segles, els barcelonins s’han governat de manera autònoma. A partir del segle XIII també es creava l’Arxiu de la Ciutat, que des de llavors conserva tota la documentació generada pel govern municipal.</p>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="consell" class= "main">
+        <div class="content-area">
+            <h2>El sistema del Consell de Cent </h2>
+            <p>Entre els anys 1249 i 1714, la ciutat de Barcelona es va regir amb el govern del Consell de Cent, un sistema institucional basat en la concessió de privilegis d’autogovern dictats per la monarquia en benefici dels habitants del Cap i Casal de Cataliunya. Al llarg dels segles es va aanar conformant un govern municipal en què les conselleries executives es renovaven anualment, de manera representativa entre els diversos estaments socials que conformaven la societat barcelonina: l’aristocràcia urbana (anomenats “ciutadans honrats”), els mercaders i els gremis artesanals i menestrals. </p>
+        </div>
+
+        <div class="main-picture">
+            <img src="imgs/consell.jpg" alt="sistema consell de cent"></img>
+        </div>
+    </article>
+
+    <article class="subarea">
+        <div class="main-picture">
+            <img src="imgs/govern-municipal.jpg" alt="sistema consell de cent"></img>
+        </div>
+        <div class="content-area">
+                <h3> La creació del Govern Municipal </h3>
+                <p> El 7 d’abril de 1249 es concedia el primer privilegi perquè els habitants de Barcelona es poguessin governar d’una manera autònoma. Quatre barcelonins van ser nomenats paers, és a dir “homes de pau”. Ells concentraven el poder executiu, assessorats per vuit consellers i una assemblea general de ciutadans, que amb el temps arribà a estar integrada per un centenar de membres: el Consell de Cent. Cada any, els consellers sortints eren els encarregats de nomenar els nous paers entrants. L’any 1284, un nou privilegi reial reconeixia a perpetuïtat el govern de la ciutat.
+                </p>
+        </div>
+    </article>
+
+    <article class="subarea">
+        <div class="content-area">
+                <h3> Els consellers municipals </h3>
+                <p> Amb la creació del govern municipal, els consellers esdevingueren l’elit política local, integrada pels membres de l’oligarquia urbana, dedicada majoritàriament als negocis. La resta de grups dominants del panorama local, com ara els mercaders, les professions liberals i les artesanals qualificadades, a més dels menestrals, també van lluitar per la seva representativitat política a les conselleries locals. A partir de l’any 1301, el govern inicia la redacció del “Llibre del Consell”, que dóna testimoni de la vida institucional de la capital catalana fins a mitjan segle XV, continuat fins al 1714 amb el Registre de deliberacions.
+                </p>
+        </div>
+        <div class="main-picture">
+            <img src="imgs/consellers-bcn.jpg" alt="consellers municipals"></img>
+        </div>
+    </article>
+
+    <article class="subarea">
+        <div class="spotlight">
+    <!-- artículo destacado. La imagen será un libro consultable -->
+        <div class="content-spotlight">
+            <h3> Els llibres de privilegis </h3>
+            <p> Els llibres de privilegis en què anaren recollint les competències que Barcelona rebia de la monarquia han passat a la història pel color de les seves cobertes: el Llibre Verd i el Llibre Vermell. Apleguen els textos legals amb els quals el govern municipal defensava la seva autonomia política. La singularitat d’aquests llibres també es troba en el fet que una cinquantena dels seus folis van ser embellits amb caplletres miniades, que han esdevingut un clàssic de la iconografia dels consellers de la Barcelona gòtica així com també d’esdecenes de la seva vida quotidiana.
+            </p>
+        </div>
+        <div class="main-picture-spotlight">
+            <img src="imgs/llibre-verd-2.png" alt="Llibre verd"></img>
+        </div>
+    </div>
+    </article>
+
+
+</section>
+</div>
+    </body>
+</html>

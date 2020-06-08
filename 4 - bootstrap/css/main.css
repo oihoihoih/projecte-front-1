@@ -1,0 +1,204 @@
+/* Elementos comunes*/
+
+#texture {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    }
+
+.contenedor-principal {
+    padding: 0;
+}
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #fff;
+}
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+
+/* Cabecera */
+/* *******************************************************************************************************************************************************************************************************************************************************************************/
+
+.header-section {
+    padding: 20px;
+}
+
+.site-logo img {
+    height: 37px;
+    padding-left: 40px;
+}
+.menu-switch button{
+    background: transparent;
+    border: none;
+}
+
+.menu-switch i {
+    color: #000;
+    font-size: 37px;
+    line-height: 37px;
+}
+
+.menu-switch-off{
+    border: none;
+    background: transparent;
+    font-size: 37px;
+}
+
+.menu-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list a{
+    color: #000;
+}
+
+.nav-items {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-inner {
+    display: none;
+}
+
+
+/* barra izquierda */
+/* *******************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.left-list {
+    position: fixed;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+
+.navbar.fixed-left .navbar-collapse .navbar-nav{
+    flex-direction: column;
+}
+
+
+/* secciones */
+/* *******************************************************************************************************************************************************************************************************************************************************************************/
+
+/*Principales (1)*/
+.first-sec {
+    background: url(../img/govern-ciutat.jpg);
+    background-position: center;
+    padding: 50px;
+}
+
+.first-sec h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+/* Sub-ámbito (1.1)*/
+.intro-sec {
+    background-color: #2524c6;
+}
+
+.intro-sec-2 {
+    background-color: #d5552f;
+}
+
+.intro-sec h1, .intro-sec-2 h1  {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Sub-sub-ámbito (1.1.1)*/
+.expo-content {
+    padding: 5% 0;
+    background-color: #FFF3C9;
+}
+
+.article-destacat, .article-slider {
+    margin-top: 40px;
+    padding-top:10%;
+}
+
+.title-third-container {
+    margin-bottom: 3.2em;
+    border-bottom: 1px solid #000;
+}
+
+/* Leyendas */
+
+.leyenda {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 20px 30px;
+}
+.registro {
+    padding: 20px 30px;
+}
+
+/* IMÁGENES */
+/* *******************************************************************************************************************************************************************************************************************************************************************************/
+/* Con pestaña*/
+.image-container{
+    position: relative;
+    padding-top: 10px;
+}
+
+.leyenda-image-left{
+    position: absolute;
+    z-index: 1100;
+    top: -52px;
+
+}
+
+.border-2-b {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+#texture, .left-list {
+    /*display:none;*/
+}
+    .first-sec h1 {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+}

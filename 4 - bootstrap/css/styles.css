@@ -1,0 +1,213 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-weight: 800;
+    line-height: 1.3em;
+    font-size: 80px;
+    border-bottom: 1px solid #000;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 1em;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+a {
+    font-family: 'sofia pro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+}
+
+a:hover {
+    color: #fbd85a;
+}
+
+
+
+/* HEADER *************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.icon_menu{
+    font-size: 45px;
+}
+
+.icon_close{
+    font-size: 45px;
+}
+
+.site-logo img{
+    width: 34px;
+}
+
+.menu-items {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+
+}
+
+.menu-button {
+    right: 0;
+}
+
+.menu-list {
+    display: none;
+    background-color: #fff;
+    list-style: none;
+    font-family: 'Sofia pro', sans-serif;
+    font-size: 36px;
+}
+
+.close-button {
+    display: none;
+}
+
+/* LEFT NAVIGATION *********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.left-navigation {
+    position: fixed;
+    left: 0px;
+    top: 20%;
+    width: 80px;
+}
+
+.areas li {
+    font-family: 'sofia pro', sans-serif;
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: auto 0;
+}
+
+
+
+/* CONTENT *************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+#gov-intro {
+    background-image: url("../imgs/govern-ciutat.jpg");
+    background-color: #2524c6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.intro-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#consell {
+    background-color: #2524c6;
+}
+
+#regidors {
+    background-color: #d5552f;
+    margin-top: 50px;
+}
+
+.main {
+    color: #fff;
+}
+
+.spotlight {
+    border: 2px solid #2524c6;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+/* IMAGEN + LEYENDAS
+*****************************************************************************************/
+
+.border-2-b {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+
+}
+
+.image-container{
+    position: relative;
+    padding-top: 10px;
+    margin-top: 3px;
+}
+
+.leyenda {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 20px 30px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.subarea-text{
+    padding-top: 50px;
+}
+
+.spotlight {
+    border: 2px solid #2524c6;
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+
+#consell {
+    height: 100vh;
+}
+
+}
